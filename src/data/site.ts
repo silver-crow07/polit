@@ -410,7 +410,7 @@ export const contact = {
   formFields: {
     fullName: "Full Name",
     mobile: "Mobile Number",
-    email: "Email",
+    email: "Email (Optional)",
     message: "Message",
   },
 } as const;

@@ -53,7 +53,7 @@ To replace an image:
 
 ## Contact form and WhatsApp
 
-- Set `contact.formEndpoint` in `src/data/site.ts` to a URL that accepts `POST` JSON with `fullName`, `mobile`, `email` and `message`. Until then the form runs in a clearly-labelled demo mode and does not send data.
+- Set `contact.formEndpoint` in `src/data/site.ts` to a URL that accepts `POST` JSON with `fullName`, `mobile` and `message`. `email` is optional; when the visitor leaves it blank, the key is omitted from the payload, and when provided it is sent after trimming. The browser validates its format only when a value is entered. Until an endpoint is set, the form runs in a clearly-labelled demo mode and does not send data.
 - Replace `contact.whatsappNumber` with the verified number in international format, digits only (for example `919876543210`).
 - Replace `contact.phone`, `contact.email` and `contact.office` with verified details.
 

@@ -36,7 +36,10 @@ export function ContactForm() {
       const response = await fetch(contact.formEndpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(values),
+        body: JSON.stringify({
+          ...values,
+          email: values.email.trim() || undefined,
+        }),
       });
       if (!response.ok) throw new Error("Request failed");
       setStatus("done");
@@ -91,17 +94,16 @@ export function ContactForm() {
 
       <div>
         <label htmlFor="email" className="mb-2 block text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
-          {contact.formFields.email} <span className="text-saffron-ink">*</span>
+          {contact.formFields.email}
         </label>
         <input
           id="email"
           name="email"
           type="email"
           autoComplete="email"
-          required
           value={values.email}
           onChange={(event) => update("email", event.target.value)}
-          placeholder="you@example.com"
+          placeholder="Email address (optional)"
           className={inputClass}
         />
       </div>
