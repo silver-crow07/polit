@@ -18,6 +18,7 @@ export function About() {
               fill
               sizes="(max-width: 1024px) 90vw, 460px"
               className="object-cover"
+              style={{ objectPosition: "72% 35%" }}
             />
           </div>
           <div className="absolute -bottom-7 right-3 bg-navy px-6 py-5 text-white shadow-lift sm:right-[-24px]">

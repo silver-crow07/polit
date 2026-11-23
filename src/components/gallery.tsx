@@ -119,7 +119,7 @@ export function Gallery() {
                   </span>
                 </span>
                 <span className="absolute left-4 top-4 bg-navy/70 px-2.5 py-1 text-[9px] font-bold uppercase tracking-[0.16em] text-white/80 backdrop-blur-sm">
-                  Illustrative
+                  Client photo
                 </span>
               </button>
             </Reveal>
@@ -127,7 +127,7 @@ export function Gallery() {
         </div>
 
         <p className="mt-8 text-center text-xs text-slate-600">
-          Images are licensed illustrations, not photographs of Sumant Kishore Singh. Select an image to view it full size; official photographs will be added when available.
+          Images are original photographs supplied by the client. Select an image to view it full size.
         </p>
       </div>
 
@@ -185,7 +185,7 @@ export function Gallery() {
                 </span>
                 <span className="mt-1 block font-display text-xl text-white">{activeItem.title}</span>
                 <span className="mt-1 block text-xs text-white/45">
-                  {(activeIndex ?? 0) + 1} / {visibleItems.length} · Illustrative image
+                  {(activeIndex ?? 0) + 1} / {visibleItems.length} · Client photograph
                 </span>
               </figcaption>
             </figure>

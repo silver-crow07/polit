@@ -1,19 +1,27 @@
 # Image source and licence record
 
-## Official portraits
+## Client-supplied original photographs
 
-Two distinct photographs were taken from the subject's own official social profiles. Identity was verified from the matching name, the "Block Pramukh Hasayan / पूर्व ब्लॉक प्रमुख हसायन" description and the shared contact number 9412501368. The site owner confirmed reuse permission. Both files were converted to WebP and optimized. No AI-generated face, stock image or unrelated person is used.
+The Home/Hero, About, Public Service and Gallery sections now use original photographs supplied directly by the client. Files were inspected in place; portrait choices were checked by comparing detected faces against the previously verified official portraits. Filenames were not changed, and `src/data/site.ts` references the existing files in `public/images/` with URL-encoded paths. No AI-generated portraits, downloaded replacements or photographs of other political personalities were used.
 
-| Section | File | Source profile | Identity evidence |
+| Section | File | Dimensions | Notes |
 | --- | --- | --- | --- |
-| Home / Hero | `public/images/leader/sumant-kishore-singh-hero.webp` | [Official Facebook page](https://www.facebook.com/SumantKishorSingh.Official/) | Page name "Sumant Kishor Singh"; description "Block Pramukh Hasayan - ब्लॉ्क प्रमुख हसायन" |
-| About | `public/images/leader/sumant-kishore-singh-about.webp` | [Official Instagram profile](https://www.instagram.com/sumant_kishor_singh/) | Bio "पूर्व ब्लॉक प्रमुख हसायन", "संपर्क सूत्र 📞9412501368" |
+| Home / Hero | `public/images/WhatsApp Image 2026-11-23 at 10.36.22 AM.jpeg` | 1080×710 | Single clear portrait; face distance 0.465 to verified reference. |
+| About | `public/images/WhatsApp Image 2026-11-23 at 10.36.20 AM (2).jpeg` | 960×911 | Two-person photograph; matching face distance 0.492. |
+| Public Service, Gallery | `public/images/WhatsApp Image 2026-11-23 at 10.36.20 AM (1).jpeg` | 1080×591 | Public gathering; matching face distance 0.424. |
+| Public Service, Gallery | `public/images/WhatsApp Image 2026-11-23 at 10.36.22 AM (2).jpeg` | 1280×720 | Group/event photograph; matching face distance 0.490. |
+| Public Service, Gallery | `public/images/WhatsApp Image 2026-11-23 at 10.36.23 AM (1).jpeg` | 1600×900 | Community event photograph. |
+| Public Service, Gallery | `public/images/WhatsApp Image 2026-11-23 at 10.36.21 AM.jpeg` | 1080×1410 | Community gathering photograph. |
+| Gallery | `public/images/WhatsApp Image 2026-11-23 at 10.36.21 AM (2).jpeg` | 1600×1200 | Local community setting. |
+| Gallery | `public/images/WhatsApp Image 2026-11-23 at 10.36.23 AM.jpeg` | 1280×720 | Community outreach activity. |
+| Gallery | `public/images/WhatsApp Image 2026-11-23 at 10.36.20 AM.jpeg` | 1250×563 | Public meeting setting. |
+| Gallery | `public/images/WhatsApp Image 2026-11-23 at 10.36.21 AM (1).jpeg` | 1080×612 | Community activity. |
 
-The Instagram source was only 150×150 px; it was upscaled and gently sharpened for the About frame. The Facebook source was 720×720 px.
+Two client files were intentionally not integrated: `WhatsApp Image 2026-11-23 at 10.36.22 AM (1).jpeg` (its only detected face did not match the verified references) and `WhatsApp Image 2026-11-23 at 10.36.23 AM (2).jpeg` (494×343, below the quality of the other originals). The old portraits in `public/images/leader/` remain on disk but are no longer referenced by Home or About. Leadership Journey is a text-only timeline with no image slot, so it was left unchanged.
 
-## Integrated illustrative images
+## Illustrative images still present (News only)
 
-All images below are generic illustrations, not photographs of Sumant Kishore Singh and not evidence of any event, project or activity. They were sourced from Wikimedia Commons because the licence and author are recorded there. Files were resized and converted to WebP.
+The files below remain in the repository with their original licence records. Only the four `news/` images are still rendered; the other WebP files are no longer used by Home, About, Public Service or Gallery. These are generic illustrations, not photographs of Sumant Kishore Singh and not evidence of any event, project or activity. They were sourced from Wikimedia Commons because the licence and author are recorded there.
 
 | # | File | Commons file | Author | Licence | Source |
 | --- | --- | --- | --- | --- | --- |
@@ -38,5 +46,4 @@ CC BY and CC BY-SA images require attribution; CC BY-SA also requires share-alik
 
 ## Still required
 
-- Verified photographs of Sumant Kishore Singh at public meetings, community interactions and events for the Gallery.
-- Photographs that genuinely correspond to any published news item.
+- Photographs that genuinely correspond to any published news item, if the News placeholders are replaced in future.

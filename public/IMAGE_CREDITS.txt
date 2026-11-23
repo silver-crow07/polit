@@ -1,18 +1,38 @@
-PORTRAIT IMAGE CREDITS
+CLIENT ORIGINAL PHOTOGRAPH CREDITS
 
-leader/sumant-kishore-singh-hero.webp
-   Official Facebook page: https://www.facebook.com/SumantKishorSingh.Official/
-   Used in the Home/Hero section with the site owner's confirmation of permission.
+These photographs were supplied directly by the client and are used with their
+filenames unchanged. No AI-generated portraits, downloaded replacements or
+photographs of other political personalities were used.
 
-leader/sumant-kishore-singh-about.webp
-   Official Instagram profile: https://www.instagram.com/sumant_kishor_singh/
-   Used in the About section with the site owner's confirmation of permission.
+Home / Hero
+   WhatsApp Image 2026-11-23 at 10.36.22 AM.jpeg
+
+About
+   WhatsApp Image 2026-11-23 at 10.36.20 AM (2).jpeg
+
+Public Service and Gallery
+   WhatsApp Image 2026-11-23 at 10.36.20 AM (1).jpeg
+   WhatsApp Image 2026-11-23 at 10.36.22 AM (2).jpeg
+   WhatsApp Image 2026-11-23 at 10.36.23 AM (1).jpeg
+   WhatsApp Image 2026-11-23 at 10.36.21 AM.jpeg
+
+Gallery
+   WhatsApp Image 2026-11-23 at 10.36.21 AM (2).jpeg
+   WhatsApp Image 2026-11-23 at 10.36.23 AM.jpeg
+   WhatsApp Image 2026-11-23 at 10.36.20 AM.jpeg
+   WhatsApp Image 2026-11-23 at 10.36.21 AM (1).jpeg
+
+The older files in images/leader/ remain on disk but are no longer used by
+Home or About. Leadership Journey is a text-only timeline with no image slot.
 
 ILLUSTRATIVE IMAGE CREDITS
 
-These photographs are generic, openly licensed illustrations. They do not depict
-Sumant Kishore Singh and do not document his activities or events.
-Each file was resized and converted to WebP for this website.
+The credits below are retained for open-licensed files still in the repository.
+Only the four news/ images are still rendered; the other WebP files are no
+longer used by Home, About, Public Service or Gallery. These photographs are
+generic illustrations. They do not depict Sumant Kishore Singh and do not
+document his activities or events. Each file was resized and converted to WebP
+for this website.
 
 01. gallery/public-gathering.webp
    Audience , Punjabi language Poets' Meet on occasion of Republic Day (India) 2020 04.jpg

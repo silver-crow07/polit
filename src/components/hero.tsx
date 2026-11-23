@@ -143,6 +143,7 @@ export function Hero() {
               priority
               sizes="(max-width: 1024px) 90vw, 480px"
               className="object-cover"
+              style={{ objectPosition: "50% 30%" }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-navy/45 via-transparent to-transparent" aria-hidden="true" />
           </div>

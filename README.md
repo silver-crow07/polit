@@ -39,13 +39,14 @@ Almost all editable text, images, links and placeholder values live in one file:
 
 ## Images
 
-- The Home/Hero and About sections use two different official photographs of Sumant Kishore Singh from his verified Facebook and Instagram profiles, optimized as WebP in `public/images/leader/`. Sources and permission notes are recorded in `IMAGE_SOURCES.md` and `public/IMAGE_CREDITS.txt`.
-- Supporting sections use 16 unique, openly licensed Wikimedia Commons photographs. They are **illustrative only** and are explicitly described as not depicting Sumant Kishore Singh or his activities. Original sources, authors and licences are recorded in `IMAGE_SOURCES.md` and in the public credits file `public/IMAGE_CREDITS.txt` (linked from the footer).
-- Gallery, Public Service and News images were resized and converted to WebP in `public/images/{gallery,community,news}/`.
+- Home/Hero, About, Public Service and Gallery use original JPEG photographs supplied directly by the client. They live in `public/images/` with their filenames unchanged; `src/data/site.ts` references them with URL-encoded paths. Section-by-section mapping is recorded in `IMAGE_SOURCES.md` and `public/IMAGE_CREDITS.txt`.
+- The older portraits in `public/images/leader/` remain on disk but are no longer used by these sections.
+- News cards still use openly licensed Wikimedia Commons illustrations, explicitly described as not depicting Sumant Kishore Singh. Their sources, authors and licences are recorded in `IMAGE_SOURCES.md` and `public/IMAGE_CREDITS.txt` (linked from the footer).
+- Leadership Journey is a text-only timeline with no image slot, so it was intentionally left unchanged.
 
-To replace illustrative images:
+To replace an image:
 
-1. Add an official photograph to the relevant folder in `public/images/`.
+1. Add the photograph to the relevant folder in `public/images/` without renaming the client originals.
 2. Update the matching path in the `images` object in `src/data/site.ts`.
 3. Update the related `alt` text so it describes the real photograph.
 4. Update `IMAGE_SOURCES.md` and `public/IMAGE_CREDITS.txt` if the replacement image requires different attribution.
@@ -68,7 +69,7 @@ To replace illustrative images:
 src/app/          layout, page, global styles, favicon
 src/components/   reusable sections and UI components
 src/data/site.ts  all editable content and placeholder values
-public/images/    placeholder artwork (replace with official photos)
+public/images/    client originals plus remaining licensed illustrations
 ```
 
 ## Verification
